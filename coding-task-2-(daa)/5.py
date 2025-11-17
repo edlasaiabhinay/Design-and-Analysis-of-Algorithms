@@ -1,6 +1,5 @@
 # 0/1 Knapsack Problem using Brute Force
 # Using binary representation for item selection
-# Author: Karthik Mateti 🙂
 
 def knapsack_bruteforce(weights, values, capacity):
     n = len(weights)
@@ -39,4 +38,5 @@ capacity = 15                   # maximum weight knapsack can hold
 best_items, max_value = knapsack_bruteforce(weights, values, capacity)
 
 print("Best combination of items:", best_items)
+
 print("Maximum value:", max_value)
